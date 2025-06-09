@@ -25,7 +25,7 @@ A simple full-stack web application for managing daily tasks and schedules.
 ---
 
 ## 🗂️ Project Structure
-
+```
 daily-schedule-manager/
 ├── backend/ # Spring Boot application (REST API)
 │ ├── src/ # Java source code
@@ -35,7 +35,7 @@ daily-schedule-manager/
 │ ├── public/ # Static files
 │ ├── package.json # React project dependencies
 └── README.md # Project documentation
-
+```
 ---
 
 ## 🚀 How to Run the Application
