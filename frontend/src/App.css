@@ -1,0 +1,176 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f6f8;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-top: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* === Form === */
+
+form {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form .form-group {
+  margin-bottom: 15px;
+}
+
+form .form-group label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+form input[type="text"],
+form input[type="date"],
+form textarea {
+  display: block;
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  color: #333;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  box-sizing: border-box;
+}
+
+form input[type="text"]:focus,
+form input[type="date"]:focus,
+form textarea:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 6px rgba(0, 123, 255, 0.2);
+  outline: none;
+}
+
+form textarea {
+  resize: vertical;
+}
+
+form .checkbox-group {
+  display: flex;
+  align-items: center;
+}
+
+form .checkbox-group label {
+  margin-right: 10px;
+}
+
+form input[type="checkbox"] {
+  margin-left: 5px;
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+/* === Task Item === */
+
+.task-item {
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.task-item h3 {
+  margin: 0 0 10px;
+  color: #333;
+}
+
+.task-item p {
+  margin: 5px 0;
+  color: #555;
+}
+
+.task-item button {
+  margin-right: 10px;
+  padding: 8px 15px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.task-item button:hover {
+  background-color: #218838;
+}
+
+.task-item button:last-child {
+  background-color: #dc3545;
+}
+
+.task-item button:last-child:hover {
+  background-color: #c82333;
+}
+
+/* === Task Edit Form inside Task Item === */
+
+.task-edit-form {
+  background-color: #f9fafc;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+
+/* === Task Actions inside Task Item === */
+
+.task-actions {
+  margin-top: 10px;
+}
+
+.task-actions button {
+  margin-right: 10px;
+  padding: 8px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.task-actions button:hover {
+  background-color: #0056b3;
+}
+
+.task-actions button:last-child {
+  background-color: #dc3545;
+}
+
+.task-actions button:last-child:hover {
+  background-color: #c82333;
+}
